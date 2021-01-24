@@ -36,7 +36,7 @@
         <h2>Screenshots</h2>
         <div class="gallery">
             <GalleryImage src="/images/projects/rinze/1.png" />
-            <GalleryImage src="/images/projects/miracle/2.png" />
+            <GalleryImage src="/images/projects/rinze/2.png" />
         </div>
     </main>
 </div>
