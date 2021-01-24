@@ -1,0 +1,39 @@
+.menu {
+    max-height: 0px;
+    display: block;
+    @include transition;
+    overflow: hidden;
+    margin-left: 4rem;
+    
+    &.enabled {
+        max-height: 100vh;
+    }
+    &__item {
+        color: $white;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @include transition;
+
+        &:hover {
+            background-color: $accent-primary;
+        }
+
+        a {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+
+            i {
+                @include px(1rem);
+            }
+            p {
+                display: inline-block;
+                flex-grow: 1;
+            }
+        }
+    }
+}
