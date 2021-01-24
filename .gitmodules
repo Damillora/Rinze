@@ -1,4 +1,4 @@
 [submodule "static/images"]
 	path = static/images
-	url = https://github.com/Damillora/nanaomoe-images.git
+	url = https://git.nanao.moe/Damillora/nanaomoe-images.git
 	branch = main
