@@ -9,7 +9,7 @@
 <div class="page">
     <PageHeader>
         <h1 class="title">
-            Game Profile: The IDOLM@STER Million Live: Theater Days
+            Game Profile: The iDOLM@STER Million Live: Theater Days
         </h1>
         <p>
             <a href="https://millionlive.idolmaster.jp/theaterdays/"
