@@ -148,6 +148,12 @@
                 playername="Damilora"
                 gameid="3BUWJibt"
             />
+            <GameListItem
+              name="THE iDOLM@STER POPLINKS"
+              link="/games/poplinks"
+              playername="Damillora"
+              gameid="EQCU3N7K6T44J"
+              />
             <!--
             <GameListItem
               name=""
