@@ -9,7 +9,7 @@
         flex-direction: row;
     }
     &:hover {
-        background-color: $bg-secondary;
+        background-color: var(--highlight-bg-color);
     }
     
     &__title {

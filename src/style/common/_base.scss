@@ -2,7 +2,42 @@
 
 html {
     font-family: 'Exo 2',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+:root, [data-theme="light"] {
+    --text-color: #{$text-light};
+    --bg-color: #{$bg-light};
+    --accent-color: #{$accent-light};
+    --accent-bg-color: #{$accent-bg-light};
+    --highlight-color: #{$highlight-light};
+    --highlight-bg-color: #{$highlight-bg-light};
+}
+
+[data-theme="dark"] {
+    --text-color: #{$text-dark};
+    --bg-color: #{$bg-dark};
+    --accent-color: #{$accent-dark};
+    --accent-bg-color: #{$accent-bg-dark};
+    --highlight-color: #{$highlight-dark};
+    --highlight-bg-color: #{$highlight-bg-dark};
+}
+
+@media (prefers-color-schme: dark) {
+    :root:not[data-theme="light"] {
+        --text-color: #{$text-dark};
+        --bg-color: #{$bg-dark};
+        --accent-color: #{$accent-dark};
+        --accent-bg-color: #{$accent-bg-dark};
+        --highlight-color: #{$highlight-dark};
+        --highlight-bg-color: #{$highlight-bg-dark};
+    }
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+
 .main {
     padding: 1rem;
     @include screen(md) {
@@ -49,7 +84,7 @@ html {
     }
 
     a {
-        color: $accent-primary;
+        color: var(--accent-color);
         &:hover {
             text-decoration: underline;
         }
@@ -64,20 +99,20 @@ html {
         list-style-type: decimal;
     }
     code {
-        background-color: $bg-primary;
-        color: $accent-primary;
+        background-color: var(--accent-bg-color);
+        color: var(--accent-color);
         white-space: pre-wrap;
     }
     blockquote {
-        border-left: 0.5rem solid $accent-primary;
+        border-left: 0.5rem solid var(--accent-color);
         @include my(2rem);
         padding: 0.5rem 0 0.5rem 2rem;
     }
     pre {
-        background: $bg-primary;
-        color: $accent-primary;
+        background: var(--accent-bg-color);
+        color: var(--accent-color);
         padding: 0.5rem;
-        border: 1px solid $accent-primary;
+        border: 1px solid var(--accent-color);
     }
 }
 

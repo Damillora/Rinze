@@ -7,7 +7,7 @@
     min-height: 12rem;
     
     &:hover {
-        background-color: $bg-secondary;
+        background-color: var(--highlight-bg-color);
     }
 
     &__image {
