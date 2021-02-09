@@ -53,6 +53,12 @@
                 gameid="106205253"
             />
             <GameListItem
+                name="Blue Archive"
+                link="/games/bluearchive"
+                playername="Damillora"
+                gameid="6296686"
+            />
+            <GameListItem
                 name="CUE!"
                 link="/games/cue"
                 playername="Damillora"
