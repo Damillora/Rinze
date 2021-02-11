@@ -23,7 +23,7 @@
             </li>
             <li>
                 <p>Twitter:</p>
-                <p><a href="/twitter">Damillora</a></p>
+                <p><a href="https://twitter.com/Damillora">Damillora</a></p>
             </li>
         </ul>
         <h2>Publishing media</h2>
@@ -35,15 +35,15 @@
             </li>
             <li>
                 <p>Twitch:</p>
-                <p><a href="/twitch">Damillora</a></p>
+                <p><a href="https://www.twitch.tv/damillora">Damillora</a></p>
             </li>
             <li>
                 <p>SoundCloud:</p>
-                <p><a href="/soundcloud">damillora</a></p>
+                <p><a href="https://soundcloud.com/damillora">damillora</a></p>
             </li>
             <li>
                 <p>GitHub:</p>
-                <p><a href="/github">Damillora</a></p>
+                <p><a href="https://github.com/Damillora">Damillora</a></p>
             </li>
         </ul>
         <h2>Alternative technologies</h2>
@@ -61,11 +61,15 @@
         <ul>
             <li>
                 <p>Fediverse:</p>
-                <p><a href="/fediverse">Damillora@fed.nanao.moe</a></p>
+                <p><a href="https://fed.nanao.moe/@Damillora">Damillora@fed.nanao.moe</a></p>
             </li>
             <li>
-                <p>Video Channel:</p>
+                <p>PeerTube:</p>
                 <p><a href="/fedichan">damillora@live.nanao.moe</a></p>
+            </li>
+            <li>
+                <p>Funkwhale:</p>
+                <p><a href="https://sounds.nanao.moe/@Damillora">damillora@live.nanao.moe</a></p>
             </li>
             <li>
                 <p>Matrix</p>

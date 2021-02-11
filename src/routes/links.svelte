@@ -26,5 +26,15 @@
                 </p>
             </MediaItem>
         </div>
+        <div class="card-list">
+            <MediaItem
+                title="Damillora's Carrd"
+                link="https://damillora.carrd.co"
+            >
+                <p>
+                    Information that I think people expect out of a Carrd web page.
+                </p>
+            </MediaItem>
+        </div>
     </main>
 </div>
