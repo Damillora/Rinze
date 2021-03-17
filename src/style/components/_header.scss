@@ -21,7 +21,10 @@
 
         opacity: 0%;
         top: -23vh;
-        &.enabled {
+        &--yuriko {
+            @include bg-765-yuriko;
+        }
+        &--enabled {
             opacity: 100%;
             top: 0;
         }
