@@ -6,6 +6,7 @@
 
 <style lang="scss" global>
 	@import "~@damillora/shian/dist/app.css";
+	@import "../sass/background";
 </style>
 
 <Header></Header>
