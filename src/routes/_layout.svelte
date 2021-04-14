@@ -5,7 +5,7 @@
 </script>
 
 <style lang="scss" global>
-	@import '../style/app.scss';
+	@import "~@damillora/shian/dist/app.css";
 </style>
 
 <Header></Header>
