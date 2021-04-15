@@ -14,7 +14,7 @@
     "dayjs": "^1.10.4",
     "howler": "^2.2.1",
     "node-fetch": "^2.6.1",
-    "polka": "next",
+    "polka": "^1.0.0-next.14",
     "sirv": "^1.0.0"
   },
   "devDependencies": {
