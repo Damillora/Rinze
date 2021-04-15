@@ -823,10 +823,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@damillora/shian@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-1.0.0.tgz#c5a448d91bd5bf3e174ac3b8a9ad1c9bc909c4c5"
-  integrity sha512-1NYfMvSaqGUZSTVex/U4gEAm9urgwpd64s2PxD542LOyc/wk8Vh8RFDbm0iXvjWOi15AkBfV8LO9Trhbs15RCA==
+"@damillora/shian@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-1.1.0.tgz#bc932f3bacbaffd5f088166c4a100f92d90d7ff7"
+  integrity sha512-1hZPDGMeC3FuGecDEBYcNpzUomGBPxRavGYTwuvTnX2iuL45XpXvEzz6JHQObANEuZ8+ivJLJcUPBzrRvwuZuw==
 
 "@polka/url@^1.0.0-next.11", "@polka/url@^1.0.0-next.9":
   version "1.0.0-next.11"
