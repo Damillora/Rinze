@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile: Project SEKAI COLORFUL STAGE!</h1>
-        <p><a href="https://pjsekai.sega.jp/">Game Website</a></p>
+        <h1 class="page-header__heading">Game Profile: Project SEKAI COLORFUL STAGE!</h1>
+        <p class="page-header__text"><a href="https://pjsekai.sega.jp/">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main">
         <h2>My Review</h2>

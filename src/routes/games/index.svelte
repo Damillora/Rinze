@@ -9,10 +9,10 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile</h1>
+        <h1 class="page-header__heading">Game Profile</h1>
     </PageHeader>
     <main class="container mx-auto main">
-        <p>
+        <p class="page-header__text">
             I play arcade and mobile games mostly, not all are recorded /
             streamed.
         </p>

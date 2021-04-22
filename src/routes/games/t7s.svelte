@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile: Tokyo 7th Sisters</h1>
-        <p><a href="https://t7s.jp">Game Website</a></p>
+        <h1 class="page-header__heading">Game Profile: Tokyo 7th Sisters</h1>
+        <p class="page-header__text"><a href="https://t7s.jp">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main" />
 </div>

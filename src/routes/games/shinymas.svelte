@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile: THE IDOLM@STER: Shiny Colors</h1>
-        <p><a href="https://shinycolors.idolmaster.jp">Game Website</a></p>
+        <h1 class="page-header__heading">Game Profile: THE IDOLM@STER: Shiny Colors</h1>
+        <p class="page-header__text"><a href="https://shinycolors.idolmaster.jp">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main" />
 </div>

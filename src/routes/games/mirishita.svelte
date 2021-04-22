@@ -8,10 +8,10 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">
+        <h1 class="page-header__heading">
             Game Profile: The iDOLM@STER Million Live: Theater Days
         </h1>
-        <p>
+        <p class="page-header__text">
             <a href="https://millionlive.idolmaster.jp/theaterdays/"
                 >Game Website</a
             >

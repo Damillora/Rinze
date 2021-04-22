@@ -8,10 +8,10 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">
+        <h1 class="page-header__heading">
             Game Profile: Love Live! School Idol Festival (JP)
         </h1>
-        <p><a href="https://lovelive-sif.bushimo.jp/">Game Website</a></p>
+        <p class="page-header__text"><a href="https://lovelive-sif.bushimo.jp/">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main" />
 </div>

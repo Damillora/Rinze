@@ -16,8 +16,8 @@
 
 <div class="page">
 	<PageHeader>
-		<h1>{status}</h1>
-		<p>{error.message}</p>
+		<h1 class="page-header__heading">{status}</h1>
+		<p class="page-header__text">{error.message}</p>
 	</PageHeader>
 	{#if dev && error.stack}
 		<pre>{error.stack}</pre>

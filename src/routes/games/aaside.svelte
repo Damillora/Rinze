@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader imageType="cue-mei2">
-        <h1 class="title">Game Profile: ARGONAVIS from BanG Dream! AAside</h1>
-        <p><a href="https://aaside.bushimo.jp">Game Website</a></p>
+        <h1 class="page-header__heading">Game Profile: ARGONAVIS from BanG Dream! AAside</h1>
+        <p class="page-header__text"><a href="https://aaside.bushimo.jp">Game Website</a></p>
     </PageHeader>
     <main class="container main">
         <h2>My Review</h2>

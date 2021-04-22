@@ -8,9 +8,9 @@
 
 <div class="page">
 	<PageHeader>
-		<h1>Damillora</h1>
-		<p>A curious technologist, a web programmer, and a future EN Vtuber</p>
-		<p>EN/ID OK, JP read only</p>
+		<h1 class="page-header__heading">Damillora</h1>
+		<p class="page-header__text">A curious technologist, a web programmer, and a future EN Vtuber</p>
+		<p class="page-header__text">EN/ID OK, JP read only</p>
 	</PageHeader>
 	<main class="container main" />
 </div>

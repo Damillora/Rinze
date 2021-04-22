@@ -9,7 +9,7 @@
 
 <div class="page">
 	<PageHeader>
-		<h1>About Damillora</h1>
+		<h1 class="page-header__heading">About Damillora</h1>
 	</PageHeader>
 	<main class="container main">
 		<p>Hello! My name is Damillora.</p>

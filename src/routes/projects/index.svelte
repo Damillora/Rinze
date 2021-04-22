@@ -9,7 +9,7 @@
 
 <div class="page">
     <PageHeader>
-        <h1>Project Portfolio</h1>
+        <h1 class="page-header__heading">Project Portfolio</h1>
     </PageHeader>
     <main class="container mx-auto main">
         <p>

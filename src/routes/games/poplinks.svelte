@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile: THE iDOLM@STER POPLINKS</h1>
-        <p>
+        <h1 class="page-header__heading">Game Profile: THE iDOLM@STER POPLINKS</h1>
+        <p class="page-header__text">
             <a href="https://poplinks.idolmaster-official.jp/">Game Website</a>
         </p>
     </PageHeader>

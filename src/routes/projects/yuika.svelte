@@ -9,8 +9,8 @@
 
 <div class="page">
     <PageHeader>
-      <h1>Damillora's Virtual Memoir</h1>
-      <p>
+      <h1 class="page-header__heading">Damillora's Virtual Memoir</h1>
+      <p class="page-header__text">
         <a href="https://blog.nanao.moe">live</a>
         &bull;
         <a href="https://github.com/Damillora/Yuika">source code</a>

@@ -8,7 +8,7 @@
 
 <div class="page">
     <PageHeader>
-        <h1>Contact</h1>
+        <h1 class="page-header__heading">Contact</h1>
     </PageHeader>
     <main class="container mx-auto main">
         <p>You can contact me via various channels.</p>

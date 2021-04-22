@@ -8,8 +8,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1 class="title">Game Profile: SOUND VOLTEX VIVID WAVE</h1>
-        <p>
+        <h1 class="page-header__heading">Game Profile: SOUND VOLTEX VIVID WAVE</h1>
+        <p class="page-header__text">
             <a href="https://p.eagate.573.jp/game/sdvx/v/p/index.html"
                 >Game Website</a
             >

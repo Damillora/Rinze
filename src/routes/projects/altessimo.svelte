@@ -9,8 +9,8 @@
 
 <div class="page">
     <PageHeader>
-      <h1>Altessimo</h1>
-      <p>
+      <h1 class="page-header__heading">Altessimo</h1>
+      <p class="page-header__text">
         <a href="https://altessimo.nanao.moe">live</a>
         &bull;
         <a href="https://github.com/Damillora/Altessimo">source code</a>

@@ -9,7 +9,7 @@
 
 <div class="page">
     <PageHeader>
-        <h1>Links</h1>
+        <h1 class="page-header__heading">Links</h1>
     </PageHeader>
     <main class="container mx-auto main">
         <p>
@@ -20,10 +20,8 @@
                 title="Damillora's Favorite Music Playlist"
                 link="/favmusiclist"
             >
-                <p>
                     This playlist contains some of the music I listen to
                     frequently.
-                </p>
             </MediaItem>
         </div>
         <div class="card-list">
@@ -31,9 +29,7 @@
                 title="Damillora's Carrd"
                 link="https://damillora.carrd.co"
             >
-                <p>
                     Information that I think people expect out of a Carrd web page.
-                </p>
             </MediaItem>
         </div>
     </main>

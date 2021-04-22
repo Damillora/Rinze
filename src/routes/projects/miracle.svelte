@@ -9,8 +9,8 @@
 
 <div class="page">
     <PageHeader>
-        <h1>nanao.moe (legacy)</h1>
-        <p>
+        <h1 class="page-header__heading">nanao.moe (legacy)</h1>
+        <p class="page-header__text">
             <a href="https://nanao.moe">former live</a>
             &bull;
             <a href="https://github.com/Damillora/miracle">source code</a>
