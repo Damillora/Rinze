@@ -11,9 +11,9 @@
     <PageHeader>
         <h1 class="page-header__heading">nanao.moe</h1>
         <p class="page-header__text">
-            <a href="https://nanao.moe">live</a>
+            <a class="post-header__social" href="https://nanao.moe">live</a>
             &bull;
-            <a href="https://github.com/Damillora/rinze">source code</a>
+            <a class="post-header__social" href="https://github.com/Damillora/rinze">source code</a>
         </p>
     </PageHeader>
     <main class="container main">
