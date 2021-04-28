@@ -1,6 +1,6 @@
 <script>
-    import PageHeader from "components/PageHeader.svelte";
-    import GalleryImage from "components/GalleryImage.svelte";
+    import PageHeader from "$lib/components/PageHeader.svelte";
+    import GalleryImage from "$lib/components/GalleryImage.svelte";
 </script>
 
 <svelte:head>

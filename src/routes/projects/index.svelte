@@ -1,6 +1,6 @@
 <script>
-    import PageHeader from "components/PageHeader.svelte";
-    import ProjectItem from "components/ProjectItem.svelte";
+    import PageHeader from "$lib/components/PageHeader.svelte";
+    import ProjectItem from "$lib/components/ProjectItem.svelte";
 </script>
 
 <svelte:head>

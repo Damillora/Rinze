@@ -1,6 +1,6 @@
 <script>
-    import PageHeader from "components/PageHeader.svelte";
-    import MediaItem from "components/MediaItem.svelte";
+    import PageHeader from "$lib/components/PageHeader.svelte";
+    import MediaItem from "$lib/components/MediaItem.svelte";
 </script>
 
 <svelte:head>

@@ -1,5 +1,5 @@
 <script>
-    import { isYurikoBirthday } from "lib/yuriko-birthday.js";
+    import { isYurikoBirthday } from "$lib/yuriko-birthday.js";
 </script>
 
 <div class="page-header">

@@ -1,8 +1,8 @@
 <script>
     import NavItem from "./NavItem.svelte";
     import NavSeparator from "./NavSeparator.svelte";
-    import DarkModeButton from "components/DarkModeButton.svelte";
-    import { isYurikoBirthday } from "lib/yuriko-birthday.js";
+    import DarkModeButton from "$lib/components/DarkModeButton.svelte";
+    import { isYurikoBirthday } from "$lib/yuriko-birthday.js";
 
     let menu_shown = false;
     let detached = false;

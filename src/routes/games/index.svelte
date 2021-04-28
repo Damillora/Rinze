@@ -1,6 +1,6 @@
 <script>
-    import PageHeader from "components/PageHeader.svelte";
-    import GameListItem from "components/GameListItem.svelte";
+    import PageHeader from "$lib/components/PageHeader.svelte";
+    import GameListItem from "$lib/components/GameListItem.svelte";
 </script>
 
 <svelte:head>

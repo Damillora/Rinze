@@ -1,5 +1,5 @@
 <script>
-    import CopyArea from "components/CopyArea.svelte";
+    import CopyArea from "$lib/components/CopyArea.svelte";
 
     export let name, link, gameid, playername;
 </script>
