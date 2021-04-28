@@ -9,7 +9,7 @@
 <div class="page">
     <PageHeader>
         <h1 class="page-header__heading">Game Profile: 欅坂46・日向坂46 UNI'S ON AIR</h1>
-        <p class="page-header__text"><a href="https://keyahina-unisonair.com/">Game Website</a></p>
+        "$lib/components/<p class="page-header__text"><a class="post-header__social" href="https://keyahina-unisonair.com/">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main">
         <h2>My Review</h2>

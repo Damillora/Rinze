@@ -9,7 +9,7 @@
 <div class="page">
     <PageHeader>
         <h1 class="page-header__heading">Game Profile: Arcaea</h1>
-        <p class="page-header__text"><a href="https://arcaea.lowiro.com">Game Website</a></p>
+        <p class="page-header__text"><a class="post-header__social" href="https://arcaea.lowiro.com">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main" />
 </div>
