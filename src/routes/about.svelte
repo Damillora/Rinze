@@ -21,8 +21,8 @@
 		<p>My public key is accessible <a href="/damillora.asc">here</a>.</p>
 		<h2>Producer Meishi</h2>
 		<div class="gallery">
-			<GalleryImage src="/images/meishi/front.png" alt="Meishi front"/>
-			<GalleryImage src="/images/meishi/back.png" alt="Meishi back"/>
+			<GalleryImage src="/images/meishi/front-shianv2.png" alt="Meishi front"/>
+			<GalleryImage src="/images/meishi/back-shianv2.png" alt="Meishi back"/>
 		</div>
 	</main>
 </div>
