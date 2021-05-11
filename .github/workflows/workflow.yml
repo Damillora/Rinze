@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: damillora/shioriko:latest
+          tags: registry.nanao.moe/nanao/rinze:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
