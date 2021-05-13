@@ -13,8 +13,7 @@
     </PageHeader>
     <main class="container mx-auto main">
         <p class="page-header__text">
-            I play arcade and mobile games mostly, not all are recorded /
-            streamed.
+            This page lists various IDs from games that I play or try out, in varying states of activity.
         </p>
         <p>
             My most frequently played genre is rhythm games, but sometimes I try
