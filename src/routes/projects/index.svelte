@@ -13,9 +13,9 @@
     </PageHeader>
     <main class="container mx-auto main">
         <p>
-            I build applications in my spare time, but currently only some are
-            published / live right now
+            This is a list of projects that I maintain and publicly available on my GitHub.
         </p>
+        <h2>Active Projects</h2>
         <div class="card-list">
             <ProjectItem
                 name="nanao.moe"
@@ -35,7 +35,21 @@
             <ProjectItem
                 name="Altessimo"
                 codename="altessimo"
-                description="Web database of Idolmaster composers"
+                description="Work-in-progress database of composers and lyricists of THE iDOLM@STER"
+            />
+            <ProjectItem
+                name="Shioriko"
+                codename="shioriko"
+                description="Booru-like imageboard software written in Go and Svelte"
+            />
+        </div>
+        <h2>Inactive Projects</h2>
+        
+        <div class="card-list">
+            <ProjectItem
+                name="nanao.moe (legacy)"
+                codename="miracle"
+                description="Former codebase of nanao.moe"
             />
         </div>
     </main>

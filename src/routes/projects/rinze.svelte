@@ -30,7 +30,7 @@
         <h2>Technologies</h2>
         <ul>
             <li>Svelte</li>
-            <li>Sapper</li>
+            <li>SvelteKit</li>
             <li>SASS</li>
         </ul>
         <h2>Screenshots</h2>
