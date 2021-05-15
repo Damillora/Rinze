@@ -16,7 +16,10 @@
 			Welcome to the official website of indie Virtual YouTuber and technology enthusiast Damillora!
 		</p>
 		<h2>Catch my debut!</h2>
-		<p>My debut date is currently set to <strong>July 17th, 2020</strong>.</p>
+		<p>
+			My debut date is currently set to <strong>June 19th, 2021</strong>. More info in
+			<a href="/debut">the special page</a>.
+		</p>
 		<h2>Channel trailer</h2>
 		<p>Coming soon...</p>
 		<h2>Join the Network</h2>

@@ -27,16 +27,23 @@
 			them here.
 		</p>
 		<h3>Illustrator: Mira Cassiela</h3>
-		<p>*Insert description here*</p>
+		<p>Virtual artist | L2D artist + freelance character designer and illustrator</p>
 		<p>
-			<a href="https://linktr.ee/miracassiela">Linktree</a>
+			<a href="https://www.youtube.com/channel/UCW62PICl31M0TDhTcvwepqw">YouTube</a>
+			&bull;
+			<a href="https://twitter.com/miracassiela">Twitter</a>
+			&bull;
+			<a href="https://www.instagram.com/miracassiela/">Instagram</a>
+			&bull;
+			<a href="https://linktr.ee/miracassiela">Links</a>
 		</p>
 		<h3>Live2D Rigging: Siauw Adhie</h3>
-		<p>*Insert description here*</p>
 		<p>
 			<a href="https://twitter.com/adhiesc123">Twitter</a>
 			&bull;
 			<a href="https://www.youtube.com/c/SiauwAdhie">YouTube</a>
+			&bull;
+			<a href="https://www.fiverr.com/adhiesc">Fiverr</a>
 		</p>
 		<h2>Where you can find me</h2>
 		<h3>Publishing media</h3>

@@ -24,9 +24,9 @@
     js-tokens "^4.0.0"
 
 "@damillora/shian@^2.0.1":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-2.1.0.tgz#d39b9201b6dc9150911d36073939e607c91e5a2b"
-  integrity sha512-wlxsLtPaYw0vPfA/GCaHX6F1Kmwqej+ic0XS7z9NDGyubtMZZyDan+d8J4UkcWP7bnoIgWpKztKxZlPzVYBNkw==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-2.2.0.tgz#fee06946796e2759e2afe958b8181a137e5a4bc0"
+  integrity sha512-F/EHL1eVNPO/wQHW+hvMlSs9Nwqa58MoF8Oe23MGyAqze4T1lsxjNIOPUomiNLlEnNR9gWd1mn/06x72JVg5qw==
 
 "@eslint/eslintrc@^0.4.1":
   version "0.4.1"
