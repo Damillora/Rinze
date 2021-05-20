@@ -9,7 +9,7 @@
 <div class="page">
     <PageHeader>
         <h1 class="page-header__heading">Game Profile: Blue Archive</h1>
-        "$lib/components/<p class="page-header__text"><a class="post-header__social" href="https://bluearchive.jp/">Game Website</a></p>
+        <p class="page-header__text"><a class="post-header__social" href="https://bluearchive.jp/">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main">
         <h2>My Review</h2>

@@ -11,7 +11,7 @@
         <h1 class="page-header__heading">
             Game Profile: Love Live! School Idol Festival (JP)
         </h1>
-        "$lib/components/<p class="page-header__text"><a class="post-header__social" href="https://lovelive-sif.bushimo.jp/">Game Website</a></p>
+        <p class="page-header__text"><a class="post-header__social" href="https://lovelive-sif.bushimo.jp/">Game Website</a></p>
     </PageHeader>
     <main class="container mx-auto main" />
 </div>
