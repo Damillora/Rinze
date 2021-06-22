@@ -15,22 +15,16 @@
 		<p>
 			Welcome to the official website of indie Virtual YouTuber and technology enthusiast Damillora!
 		</p>
-		<h2>Catch my debut!</h2>
-		<p>
-			My debut date is currently set to <strong>June 19th, 2021</strong>. More info in
-			<a href="/debut">the special page</a>.
-		</p>
+		<p>I do tech, programming, and mobile games stuff. I like unique, weird, and interesting things,</p>
 		<h2>Channel trailer</h2>
 		<p>Coming soon...</p>
-		<h2>Join the Network</h2>
-		<p><strong>Under Construction</strong></p>
+		<h2>Join the Network: <a href="https://discord.gg/hzdgA7ZyNz">Discord</a>&nbsp;|&nbsp;<a href="https://matrix.to/#/#general:matrix.nanao.moe">Matrix</a></h2>
 		<p>
-			The Damillora Network will be simultaneously the official place for my fans to interact, and a
+			The Damillora Network is the official place for my fans to interact, and a
 			place for enthusiast to gather and discuss about various topics!
 		</p>
 		<p>
-			The Network will be reachable via Discord and Matrix. It will be open when I debuted as a
-			Virtual YouTuber.
+			The Network is reachable via Discord and Matrix.
 		</p>
 	</main>
 </div>

@@ -33,6 +33,7 @@
 		<h1 class="page-header__heading">Debut Stream!</h1>
 	</PageHeader>
 	<main class="container main">
+		<h1>The debut has already concluded. Thanks to everyone who tuned in the stream!</h1>
 		<p>This page contains information about my debut stream as a Virtual YouTuber.</p>
 		<h2>When will it happen?</h2>
 		<p>The debut stream is set to be on <strong>June 19th, 2021</strong>.</p>

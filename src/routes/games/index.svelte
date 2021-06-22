@@ -18,6 +18,12 @@
 		<p>My most frequently played genre is rhythm games, but sometimes I try other genres too</p>
 		<h2>Game IDs</h2>
 		<div class="card-list">
+			<GameListItem
+				name="Alchemy Stars (SEA)"
+				link="/games/alchemystars"
+				playername="Damilora"
+				gameid="67119157"
+			/>
 			<GameListItem name="Arcaea" link="/games/arcaea" playername="Damillora" gameid="264202217" />
 			<GameListItem
 				name="ARGONAVIS from BanG Dream! AAside"

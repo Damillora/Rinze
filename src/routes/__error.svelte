@@ -3,8 +3,8 @@
 		return {
 			props: {
 				status: status,
-				error: error,
-			},
+				error: error
+			}
 		};
 	}
 </script>
@@ -15,9 +15,6 @@
 	export let status;
 	export let error;
 </script>
-
-<style>
-</style>
 
 <svelte:head>
 	<title>{status}</title>
@@ -35,5 +32,5 @@
 	</main>
 </div>
 
-
-
+<style>
+</style>

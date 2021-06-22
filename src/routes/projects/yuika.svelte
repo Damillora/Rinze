@@ -32,12 +32,12 @@
       </ul>
       <h2>Screenshots</h2>
       <div class="gallery">
-        <GalleryImage src="/images/projects/yuika/1.png" />
-        <GalleryImage src="/images/projects/yuika/2.png" />
-        <GalleryImage src="/images/projects/yuika/3.png" />
-        <GalleryImage src="/images/projects/yuika/4.png" />
-        <GalleryImage src="/images/projects/yuika/5.png" />
-        <GalleryImage src="/images/projects/yuika/6.png" />
+        <GalleryImage src="/images/projects/yuika/1.png" alt="Yuika"/>
+        <GalleryImage src="/images/projects/yuika/2.png" alt="Yuika"/>
+        <GalleryImage src="/images/projects/yuika/3.png" alt="Yuika"/>
+        <GalleryImage src="/images/projects/yuika/4.png" alt="Yuika"/>
+        <GalleryImage src="/images/projects/yuika/5.png" alt="Yuika"/>
+        <GalleryImage src="/images/projects/yuika/6.png" alt="Yuika"/>
       </div>
 
     </main>

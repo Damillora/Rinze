@@ -29,7 +29,7 @@
 		</ul>
 		<h2>Screenshots</h2>
 		<div class="gallery">
-			<GalleryImage src="/images/projects/shioriko/1.png" />
+			<GalleryImage src="/images/projects/shioriko/1.png" alt="Shioriko" />
 		</div>
 	</main>
 </div>
