@@ -81,6 +81,12 @@
 				gameid="17918429"
 			/>
 			<GameListItem
+				name="IDOLY PRIDE"
+				link="/games/idoly"
+				playername="Damillora"
+				gameid="QAPHJWMY"
+			/>
+			<GameListItem
 				name="Love Live! School Idol Festival (JP)"
 				link="/games/llsif"
 				playername="Damillora"

@@ -29,6 +29,6 @@
     "@sveltejs/adapter-node": "^1.0.0-next.17",
     "dayjs": "^1.10.4",
     "howler": "^2.2.1",
-    "node-sass": "^5.0.0"
+    "sass": "^1.35.2"
   }
 }
