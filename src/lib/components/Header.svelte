@@ -22,10 +22,6 @@
                 <div class="header__top">
                     <a
                         class="header__title"
-                        on:click={() =>
-                            (menu_shown = menu_shown
-                                ? !menu_shown
-                                : menu_shown)}
                         href="/"
                     >
                         Damillora
@@ -43,7 +39,6 @@
                 <div
                     class:menu={true}
                     class:enabled={menu_shown}
-                    on:click={() => (menu_shown = !menu_shown)}
                 >
                     <NavItem link="/about" icon="person" text="About" />
                     <NavItem link="/projects" icon="work" text="Projects" />
@@ -59,7 +54,6 @@
                         icon="rss_feed"
                         text="Blog"
                     />
-                    <NavSeparator />
                     <DarkModeButton />
                 </div>
             </header>

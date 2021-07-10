@@ -25,7 +25,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@damillora/shian": "^2.0.1",
+    "@damillora/shian": "^3",
     "@sveltejs/adapter-node": "^1.0.0-next.17",
     "dayjs": "^1.10.4",
     "howler": "^2.2.1",

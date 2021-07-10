@@ -15,7 +15,7 @@
     }
 </script>
 
-<div class="menu__item" on:click={toggleMode}>
+<div class="menu__item menu--dark-mode" on:click={toggleMode}>
     <i class="menu__icon material-icons md-24">{icon}</i>
     <p class="menu__text">{text}</p>
 </div>

@@ -23,10 +23,12 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@damillora/shian@^2.0.1":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-2.2.0.tgz#fee06946796e2759e2afe958b8181a137e5a4bc0"
-  integrity sha512-F/EHL1eVNPO/wQHW+hvMlSs9Nwqa58MoF8Oe23MGyAqze4T1lsxjNIOPUomiNLlEnNR9gWd1mn/06x72JVg5qw==
+"@damillora/shian@^3":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@damillora/shian/-/shian-3.1.0.tgz#3b0b070b7f02c9e1cb36c871edc681d05ae8cf21"
+  integrity sha512-vk03I7w6/HrlaX+0FTdkRmQeSkdeR2mHu/AXekzum7qfyc8V0o7EO/HKlB/IdPnQRoycVegxe0+O10QaO8EzqA==
+  dependencies:
+    sass "^1.35.1"
 
 "@eslint/eslintrc@^0.4.2":
   version "0.4.2"
@@ -257,6 +259,8 @@ argparse@^1.0.7:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
   integrity sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==
+  dependencies:
+    sprintf-js "~1.0.2"
 
 array-union@^2.1.0:
   version "2.1.0"
@@ -1067,7 +1071,7 @@ sade@^1.7.4:
   dependencies:
     mri "^1.1.0"
 
-sass@^1.35.2:
+sass@^1.35.1, sass@^1.35.2:
   version "1.35.2"
   resolved "https://registry.yarnpkg.com/sass/-/sass-1.35.2.tgz#b732314fcdaf7ef8d0f1698698adc378043cb821"
   integrity sha512-jhO5KAR+AMxCEwIH3v+4zbB2WB0z67V1X0jbapfVwQQdjHZUGUyukpnoM6+iCMfsIUC016w9OPKQ5jrNOS9uXw==
