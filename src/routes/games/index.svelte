@@ -16,6 +16,14 @@
 			This page lists various IDs from games that I play or try out, in varying states of activity.
 		</p>
 		<p>My most frequently played genre is rhythm games, but sometimes I try other genres too</p>
+		<h2>Game Consoles</h2>
+		<GameListItem
+			name="Nintendo Switch"
+			link="/games"
+			playername="Damillora"
+			gameid="SW-8522-2159-0226"
+		/>
+
 		<h2>Game IDs</h2>
 		<div class="card-list">
 			<GameListItem
@@ -146,6 +154,12 @@
 				link="/games/shinymas"
 				playername="Damillora"
 				gameid="ePmtJyTwzn"
+			/>
+			<GameListItem
+				name="THE IDOLM@STER SideM GROWING STARS"
+				link="/games/saisuta"
+				playername="Damillora"
+				gameid="XZFL59XM"
 			/>
 			<GameListItem
 				name="Tokyo 7th Sisters"
