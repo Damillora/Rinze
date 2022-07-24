@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@damillora/plachta': ^1.8.0
+  '@damillora/plachta': ^1.8.1
   '@damillora/shian': ^3.3.1
   '@sveltejs/adapter-node': ^1.0.0-next.83
   '@sveltejs/kit': ^1.0.0-next.392
@@ -22,7 +22,7 @@ specifiers:
   vite: ^3.0.2
 
 dependencies:
-  '@damillora/plachta': 1.8.0_svelte@3.49.0
+  '@damillora/plachta': 1.8.1_svelte@3.49.0
   '@damillora/shian': 3.3.1
   '@sveltejs/adapter-node': 1.0.0-next.83
   dayjs: 1.11.4
@@ -66,8 +66,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@damillora/plachta/1.8.0_svelte@3.49.0:
-    resolution: {integrity: sha512-eK5+7IXSGYXfD5pkySgEB3Seijd6oGV2XU8grUuFzUBIRMeiqjtE4UVdlKXSanen22Ta1w55TOyTDOmIF/14Vw==}
+  /@damillora/plachta/1.8.1_svelte@3.49.0:
+    resolution: {integrity: sha512-dME0EcasgQSbGj83Ox2gG8nKHFYM14srCZdxgULw5fpoSrhdGMig0IZ+7NAQJCu6bsqyUNZ16Fj0dy2HHkL4hQ==}
     dependencies:
       svelte-material-icons: 2.0.2_svelte@3.49.0
       svelte-themes: 0.0.98
