@@ -46,7 +46,7 @@
 		<GameListItem
 			name="Artery Gear: Fusion (EN)"
 			link="/games/arterygear"
-			playername="Damillora"
+			playername="Damilora"
 			gameid="030454085"
 		/>
 		<GameListItem

@@ -25,7 +25,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@damillora/plachta": "^1.7.0",
+    "@damillora/plachta": "^1.8.0",
     "@damillora/shian": "^3.3.1",
     "@sveltejs/adapter-node": "^1.0.0-next.83",
     "dayjs": "^1.11.4",

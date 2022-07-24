@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@damillora/plachta': ^1.7.0
+  '@damillora/plachta': ^1.8.0
   '@damillora/shian': ^3.3.1
   '@sveltejs/adapter-node': ^1.0.0-next.83
   '@sveltejs/kit': ^1.0.0-next.392
@@ -22,7 +22,7 @@ specifiers:
   vite: ^3.0.2
 
 dependencies:
-  '@damillora/plachta': 1.7.0_svelte@3.49.0
+  '@damillora/plachta': 1.8.0_svelte@3.49.0
   '@damillora/shian': 3.3.1
   '@sveltejs/adapter-node': 1.0.0-next.83
   dayjs: 1.11.4
@@ -66,8 +66,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@damillora/plachta/1.7.0_svelte@3.49.0:
-    resolution: {integrity: sha512-CO1gAQ7BnvU9cbP8ahQkjVal1EwKJkLseU9UtTQbAGK23GYtgnT2bcNoKtS+iwRsOYH9zDp62ctliM5frs2baQ==}
+  /@damillora/plachta/1.8.0_svelte@3.49.0:
+    resolution: {integrity: sha512-eK5+7IXSGYXfD5pkySgEB3Seijd6oGV2XU8grUuFzUBIRMeiqjtE4UVdlKXSanen22Ta1w55TOyTDOmIF/14Vw==}
     dependencies:
       svelte-material-icons: 2.0.2_svelte@3.49.0
       svelte-themes: 0.0.98
@@ -193,8 +193,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/18.0.6:
-    resolution: {integrity: sha512-/xUq6H2aQm261exT6iZTMifUySEt4GR5KX8eYyY+C4MSNPqSh9oNIP7tz2GLKTlFaiBbgZNxffoR3CVRG+cljw==}
+  /@types/node/18.6.0:
+    resolution: {integrity: sha512-WZ/6I1GL0DNAo4bb01lGGKTHH8BHJyECepf11kWONg3OJoHq2WYOm16Es1V54Er7NTUXsbDCpKRKdmBc4X2xhA==}
     dev: true
 
   /@types/pug/2.0.6:
@@ -204,7 +204,7 @@ packages:
   /@types/sass/1.43.1:
     resolution: {integrity: sha512-BPdoIt1lfJ6B7rw35ncdwBZrAssjcwzI5LByIrYs+tpXlj/CAkuVdRsgZDdP4lq5EjyWzwxZCqAoFyHKFwp32g==}
     dependencies:
-      '@types/node': 18.0.6
+      '@types/node': 18.6.0
     dev: true
 
   /@typescript-eslint/eslint-plugin/4.33.0_d91404fd3b7596e5b6874ef0a887f4fa:
