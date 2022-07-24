@@ -44,6 +44,12 @@
 			gameid="Damillora#0835"
 		/>
 		<GameListItem
+			name="Artery Gear: Fusion (EN)"
+			link="/games/arterygear"
+			playername="Damillora"
+			gameid="030454085"
+		/>
+		<GameListItem
 			name="Azur Lane (EN)"
 			link="/games/azurlane"
 			playername="Damillora"
