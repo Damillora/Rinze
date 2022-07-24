@@ -2,8 +2,9 @@ FROM node:14
 
 # install dependencies
 WORKDIR /app
-COPY package.json package-lock.json ./
-RUN yarn install
+RUN npm install -g pnpm
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install
 
 # Copy all local files into the image.
 COPY . .

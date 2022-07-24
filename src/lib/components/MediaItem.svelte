@@ -1,14 +1,20 @@
 <script>
-    export let title, link;
+	import Card from '@damillora/plachta/components/Card/Card.svelte';
+	import CardContent from '@damillora/plachta/components/Card/CardContent.svelte';
+	import CardTitle from '@damillora/plachta/components/Card/CardTitle.svelte';
+	import CardDescription from '@damillora/plachta/components/Card/CardDescription.svelte';
+	export let title, link, description;
 </script>
 
-<div class="media-item">
-    <div class="media-item__title">
-        <p class="media-item__caption"><a href={link}>{title}</a></p>
-    </div>
-    <div class="media-item__content">
-        <p class="media-item__text">
-            <slot />
-        </p>
-    </div>
-</div>
+<Card>
+	<CardContent>
+		<CardTitle>
+			<a href={link}>
+				{title}
+			</a>
+		</CardTitle>
+		<CardDescription>
+			{description}
+		</CardDescription>
+	</CardContent>
+</Card>

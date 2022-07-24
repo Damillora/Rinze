@@ -2,33 +2,34 @@
   "name": "~TODO~",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
+    "dev": "vite dev",
     "build": "svelte-kit build",
     "preview": "svelte-kit preview",
     "lint": "prettier --check . && eslint --ignore-path .gitignore .",
     "format": "prettier --write ."
   },
   "devDependencies": {
-    "@sveltejs/kit": "^1.0.0-next.95",
-    "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.19.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-svelte3": "^3.2.0",
+    "@sveltejs/kit": "^1.0.0-next.392",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte3": "^3.4.1",
     "prettier": "~2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "svelte": "^3.29.0",
-    "svelte-preprocess": "^4.0.0",
-    "tslib": "^2.0.0",
-    "typescript": "^4.0.0",
-    "vite": "^2.2.3"
+    "prettier-plugin-svelte": "^2.7.0",
+    "svelte": "^3.49.0",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.2"
   },
   "type": "module",
   "dependencies": {
-    "@damillora/shian": "^3",
-    "@sveltejs/adapter-node": "^1.0.0-next.17",
-    "dayjs": "^1.10.4",
-    "howler": "^2.2.1",
-    "sass": "^1.35.2"
+    "@damillora/plachta": "^1.7.0",
+    "@damillora/shian": "^3.3.1",
+    "@sveltejs/adapter-node": "^1.0.0-next.83",
+    "dayjs": "^1.11.4",
+    "howler": "^2.2.3",
+    "sass": "^1.54.0"
   }
 }

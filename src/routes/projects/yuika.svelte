@@ -1,25 +1,26 @@
 <script>
-    import PageHeader from '$lib/components/PageHeader.svelte';
-    import GalleryImage from '$lib/components/GalleryImage.svelte';
+    import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
+    import Container from "@damillora/plachta/components/Container/Container.svelte";
+    import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
+    import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
 </script>
 
 <svelte:head>
-    <title>Damillora: Damillora's Virtual Memoir</title>
+    <title>Damillora: Yuika theme</title>
 </svelte:head>
 
-<div class="page">
+<Container>
+  <Post>
     <PageHeader>
-      <h1 class="page-header__heading">Damillora's Virtual Memoir</h1>
-      <p class="page-header__text">
-        <a class="post-header__social" href="https://blog.nanao.moe">live</a>
-        &bull;
-        <a class="post-header__social" href="https://github.com/Damillora/Yuika">source code</a>
+      <h1>Yuika theme</h1>
+      <p >
+        <a href="https://github.com/Damillora/Yuika">source code</a>
       </p>
     </PageHeader>
-    <main class="container mx-auto main">
+    <PostMain comments={false}>
       <h2>Description</h2>
       <p>
-        Damillora's Virtual Memoir is my hobby-related blog, writing about games and idols.
+        Damillora's Virtual Memoir is my hobby-related blog, writing about games and idols. The blog uses the Yuika theme, which was designed solely for Damillora's Virtual Memoir.
       </p>
       <p>
         The blog runs on Ghost, a publication-focused CMS, while the theme uses Tailwind CSS for its CSS framework.
@@ -32,13 +33,14 @@
       </ul>
       <h2>Screenshots</h2>
       <div class="gallery">
-        <GalleryImage src="/images/projects/yuika/1.png" alt="Yuika"/>
-        <GalleryImage src="/images/projects/yuika/2.png" alt="Yuika"/>
-        <GalleryImage src="/images/projects/yuika/3.png" alt="Yuika"/>
-        <GalleryImage src="/images/projects/yuika/4.png" alt="Yuika"/>
-        <GalleryImage src="/images/projects/yuika/5.png" alt="Yuika"/>
-        <GalleryImage src="/images/projects/yuika/6.png" alt="Yuika"/>
+        <img src="/images/projects/yuika/1.jpg" alt="Yuika"/>
+        <img src="/images/projects/yuika/2.jpg" alt="Yuika"/>
+        <img src="/images/projects/yuika/3.jpg" alt="Yuika"/>
+        <img src="/images/projects/yuika/4.jpg" alt="Yuika"/>
+        <img src="/images/projects/yuika/5.jpg" alt="Yuika"/>
+        <img src="/images/projects/yuika/6.jpg" alt="Yuika"/>
       </div>
+    </PostMain>
 
-    </main>
-  </div>
+  </Post>
+</Container>

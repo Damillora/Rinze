@@ -3,7 +3,7 @@
 // Public webhook URL for forms.
 let webhookUrl = "https://n8n.nanao.moe/webhook/fd943cbe-fd27-47f8-98ec-01c14b5104fe";
 
-export async function post({ body }) {
+export async function POST({ body }) {
     if (!body.message) {
         return {
             status: 400,

@@ -1,16 +1,21 @@
 <script>
-	import PageHeader from '$lib/components/PageHeader.svelte';
+	import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
+	import Container from '@damillora/plachta/components/Container/Container.svelte';
+	import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
+	import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
 </script>
 
-a<svelte:head>
+<svelte:head>
 	<title>Damillora: Game Profile</title>
 </svelte:head>
 
-<div class="page">
-	<PageHeader>
-		<h1 class="page-header__heading">Game Profile: Alchemy Stars</h1>
-		<p class="page-header__text">
-			<a class="post-header__social" href="https://www.alchemystars.com/">Game Website</a>
-		</p>
-	</PageHeader>
-</div>
+<Container>
+	<Post>
+		<PageHeader>
+			<h1>Game Profile: Alchemy Stars</h1>
+			<p>
+				<a href="https://www.alchemystars.com/">Game Website</a>
+			</p>
+		</PageHeader>
+	</Post>
+</Container>

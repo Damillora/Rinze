@@ -2,7 +2,7 @@ var linksCache = {}
 
 const shortenerBase = process.env.SHORTENER_BASE || 'https://link.nanao.moe';
 
-export async function get({ params }) {
+export async function GET({ params }) {
         var path = params.link;
         if (linksCache[path]) {
                 if (linksCache[path] != 'none') {
