@@ -1,15 +1,19 @@
 <script>
-    import PageHeader from "$lib/components/PageHeader.svelte";
+	import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
+	import Container from '@damillora/plachta/components/Container/Container.svelte';
+	import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
+	import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
 </script>
 
 <svelte:head>
-    <title>Damillora: Game Profile</title>
+	<title>Damillora: Game Profile</title>
 </svelte:head>
 
-<div class="page">
-    <PageHeader>
-        <h1>Game Profile: maimai DX</h1>
-        <p><a href="https://maimai.sega.com/">Game Website</a></p>
-    </PageHeader>
-    <main class="container mx-auto main" />
-</div>
+<Container>
+	<Post>
+		<PageHeader>
+			<h1>Game Profile: maimai DX</h1>
+			<p><a href="https://maimai.sega.com/">Game Website</a></p>
+		</PageHeader>
+	</Post>
+</Container>
