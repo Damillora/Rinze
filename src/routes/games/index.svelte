@@ -32,6 +32,12 @@
 				playername="Damilora"
 				gameid="67119157"
 			/>
+			<GameListItem
+				name="Alice Fiction"
+				link="/games/alicefic"
+				playername="Damillora"
+				gameid="49e3dyqh9f80"
+			/>
 			<GameListItem name="Arcaea" link="/games/arcaea" playername="Damillora" gameid="264202217" />
 			<GameListItem
 				name="ARGONAVIS from BanG Dream! AAside"
