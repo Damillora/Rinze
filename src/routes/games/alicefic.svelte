@@ -13,7 +13,7 @@
 	<Post>
 		<PageHeader>
 			<h1>Game Profile: Alice Fiction</h1>
-			<p><a href="alice-fiction.com/en/">Game Website</a></p>
+			<p><a href="https://alice-fiction.com/en/">Game Website</a></p>
 		</PageHeader>
 
 		<!-- <PostMain comments={false}>
