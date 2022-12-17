@@ -124,6 +124,12 @@
 				playername="YUIKA283"
 				gameid="6027059823123"
 			/>
+			<GameListItem
+				name="Neural Cloud"
+				link="/games/neuralcloud"
+				playername="Damillora"
+				gameid="52799"
+			/>
 			<GameListItem name="Nogikoi" link="/games/nogikoi" playername="-" gameid="1673068678" />
 			<GameListItem
 				name="Project SEKAI COLORFUL STAGE"
