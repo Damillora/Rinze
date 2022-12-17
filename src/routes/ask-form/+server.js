@@ -1,3 +1,5 @@
+import { json as json$1 } from '@sveltejs/kit';
+
 
 
 // Public webhook URL for forms.
@@ -5,12 +7,11 @@ let webhookUrl = "https://n8n.nanao.moe/webhook/fd943cbe-fd27-47f8-98ec-01c14b51
 
 export async function POST({ body }) {
     if (!body.message) {
-        return {
-            status: 400,
-            body: {
-                error: "No message!"
-            }
-        }
+        return json$1({
+    error: "No message!"
+}, {
+            status: 400
+        })
     }
     const data = await fetch(webhookUrl, {
         method: "POST",
@@ -22,9 +23,7 @@ export async function POST({ body }) {
         }),
     })
 
-    return {
-        body: {
-            success: true,
-        }
-    }
+    return json$1({
+    success: true,
+})
 }

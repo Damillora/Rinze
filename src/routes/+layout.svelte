@@ -34,7 +34,7 @@
 	<slot />
 
 	<Footer>
-		<p>Copyright (c) 2021 Damillora</p>
+		<p>Copyright (c) 2023 Damillora</p>
 	</Footer>
 </Base>
 
