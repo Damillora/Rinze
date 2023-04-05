@@ -99,10 +99,5 @@
 		</ul>
 		<h2>GPG public key</h2>
 		<p>My public key is accessible <a href="/damillora.asc">here</a>.</p>
-		<h2>Producer Meishi</h2>
-		<div class="gallery">
-			<img src="/images/meishi/front-shianv2.png" alt="Meishi front" />
-			<img src="/images/meishi/back-shianv2.png" alt="Meishi back" />
-		</div>
 	</Index>
 </Container>
