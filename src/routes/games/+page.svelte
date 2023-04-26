@@ -103,7 +103,7 @@
 			<GameListItem
 				name="Honkai Star Rail"
 				link="/games/starrail"
-				playername="ClaraEllie"
+				playername="ClaraEllie / Damillora"
 				gameid="801618657"
 			/>
 			<GameListItem
