@@ -101,6 +101,12 @@
 				gameid="17918429"
 			/>
 			<GameListItem
+				name="Honkai Star Rail"
+				link="/games/starrail"
+				playername="ClaraEllie"
+				gameid="801618657"
+			/>
+			<GameListItem
 				name="IDOLY PRIDE"
 				link="/games/idoly"
 				playername="Damillora"
