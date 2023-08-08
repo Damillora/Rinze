@@ -1,8 +1,5 @@
 <script>
-	import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
-	import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
-	import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
+	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
 </script>
 
 <svelte:head>

@@ -12,7 +12,7 @@
 <input type="text" class="copyarea" on:click={copy} bind:value={value} bind:this={copyarea} readonly/>
 
 <style lang="scss">
-    @import "@damillora/plachta/styles/global";
+    @import "@damillora/plachta/dist/styles/global";
 
     .copyarea {
         background-color: var(--background-color);

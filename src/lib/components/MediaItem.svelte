@@ -1,8 +1,6 @@
 <script>
-	import Card from '@damillora/plachta/components/Card/Card.svelte';
-	import CardContent from '@damillora/plachta/components/Card/CardContent.svelte';
-	import CardTitle from '@damillora/plachta/components/Card/CardTitle.svelte';
-	import CardDescription from '@damillora/plachta/components/Card/CardDescription.svelte';
+	import { Card, CardContent, CardTitle, CardDescription } from '@damillora/plachta';
+
 	export let title, link, description;
 </script>
 

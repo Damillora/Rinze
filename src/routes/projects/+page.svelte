@@ -1,7 +1,6 @@
 <script>
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
+	import { Container, Index } from '@damillora/plachta';
 	import ProjectItem from '$lib/components/ProjectItem.svelte';
-	import Index from '@damillora/plachta/components/PageTypes/Index.svelte';
 </script>
 
 <svelte:head>
@@ -26,11 +25,6 @@
 				description="My online blog"
 			/>
 			<ProjectItem
-				name="Altessimo"
-				codename="altessimo"
-				description="Work-in-progress database of composers and lyricists of THE iDOLM@STER"
-			/>
-			<ProjectItem
 				name="Shioriko"
 				codename="shioriko"
 				description="Booru-like imageboard software written in Go and Svelte"
@@ -43,6 +37,11 @@
 				name="nanao.moe (legacy)"
 				codename="miracle"
 				description="Former codebase of nanao.moe"
+			/>
+			<ProjectItem
+				name="Altessimo"
+				codename="altessimo"
+				description="Work-in-progress database of composers and lyricists of THE iDOLM@STER"
 			/>
 			<ProjectItem name="Yuika theme" codename="yuika" description="Previous theme for my blog" />
 		</div>

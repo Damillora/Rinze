@@ -1,8 +1,5 @@
 <script>
-	import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
-	import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
-	import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
+	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
 </script>
 
 <svelte:head>
@@ -12,8 +9,8 @@
 <Container>
 	<Post>
 		<PageHeader>
-			<h1>Game Profile: Honkai Impact 3rd</h1>
-			<p><a href="https://honkaiimpact3.hoyoverse.com">Game Website</a></p>
+			<h1>Game Profile: Honkai Star Rail</h1>
+			<p><a href="https://hsr.hoyoverse.com">Game Website</a></p>
 		</PageHeader>
 	</Post>
 </Container>

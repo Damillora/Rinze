@@ -1,46 +1,45 @@
 <script>
-    import PageHeader from '@damillora/plachta/components/PageHeader/PageHeader.svelte';
-    import Container from "@damillora/plachta/components/Container/Container.svelte";
-    import Post from '@damillora/plachta/components/PageTypes/Post.svelte';
-    import PostMain from '@damillora/plachta/components/Post/PostMain.svelte';
+	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
 </script>
 
+
 <svelte:head>
-    <title>Damillora: Yuika theme</title>
+	<title>Damillora: Yuika theme</title>
 </svelte:head>
 
 <Container>
-  <Post>
-    <PageHeader>
-      <h1>Yuika theme</h1>
-      <p >
-        <a href="https://github.com/Damillora/Yuika">source code</a>
-      </p>
-    </PageHeader>
-    <PostMain comments={false}>
-      <h2>Description</h2>
-      <p>
-        Damillora's Virtual Memoir is my hobby-related blog, writing about games and idols. The blog uses the Yuika theme, which was designed solely for Damillora's Virtual Memoir.
-      </p>
-      <p>
-        The blog runs on Ghost, a publication-focused CMS, while the theme uses Tailwind CSS for its CSS framework.
-      </p>
-      <h2>Technologies</h2>
-      <ul>
-        <li>Ghost</li>
-        <li>Tailwind CSS</li>
-        <li>jQuery</li>
-      </ul>
-      <h2>Screenshots</h2>
-      <div class="gallery">
-        <img src="/images/projects/yuika/1.jpg" alt="Yuika"/>
-        <img src="/images/projects/yuika/2.jpg" alt="Yuika"/>
-        <img src="/images/projects/yuika/3.jpg" alt="Yuika"/>
-        <img src="/images/projects/yuika/4.jpg" alt="Yuika"/>
-        <img src="/images/projects/yuika/5.jpg" alt="Yuika"/>
-        <img src="/images/projects/yuika/6.jpg" alt="Yuika"/>
-      </div>
-    </PostMain>
-
-  </Post>
+	<Post>
+		<PageHeader>
+			<h1>Yuika theme</h1>
+			<p>
+				<a href="https://github.com/Damillora/Yuika">source code</a>
+			</p>
+		</PageHeader>
+		<PostMain comments={false}>
+			<h2>Description</h2>
+			<p>
+				Damillora's Virtual Memoir is my hobby-related blog, writing about games and idols. The blog
+				uses the Yuika theme, which was designed solely for Damillora's Virtual Memoir.
+			</p>
+			<p>
+				The blog runs on Ghost, a publication-focused CMS, while the theme uses Tailwind CSS for its
+				CSS framework.
+			</p>
+			<h2>Technologies</h2>
+			<ul>
+				<li>Ghost</li>
+				<li>Tailwind CSS</li>
+				<li>jQuery</li>
+			</ul>
+			<h2>Screenshots</h2>
+			<div class="gallery">
+				<img src="/images/projects/yuika/1.jpg" alt="Yuika" />
+				<img src="/images/projects/yuika/2.jpg" alt="Yuika" />
+				<img src="/images/projects/yuika/3.jpg" alt="Yuika" />
+				<img src="/images/projects/yuika/4.jpg" alt="Yuika" />
+				<img src="/images/projects/yuika/5.jpg" alt="Yuika" />
+				<img src="/images/projects/yuika/6.jpg" alt="Yuika" />
+			</div>
+		</PostMain>
+	</Post>
 </Container>

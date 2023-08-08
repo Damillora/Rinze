@@ -1,5 +1,6 @@
 <script>
-	import PostCard from '@damillora/plachta/components/PostCard/PostCard.svelte';
+	import { PostCard } from '@damillora/plachta';
+	
 	export let codename, name, description;
 </script>
 

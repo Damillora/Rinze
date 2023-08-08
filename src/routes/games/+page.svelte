@@ -1,7 +1,6 @@
 <script>
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
+	import { Container, Index } from '@damillora/plachta';
 	import GameListItem from '$lib/components/GameListItem.svelte';
-	import Index from '@damillora/plachta/components/PageTypes/Index.svelte';
 </script>
 
 <svelte:head>

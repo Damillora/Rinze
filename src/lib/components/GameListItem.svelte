@@ -1,7 +1,6 @@
 <script>
-	import Card from '@damillora/plachta/components/Card/Card.svelte';
-	import CardContent from '@damillora/plachta/components/Card/CardContent.svelte';
-	import CardTitle from '@damillora/plachta/components/Card/CardTitle.svelte';
+	import { Card, CardContent, CardTitle } from '@damillora/plachta';
+
 	import CopyArea from '$lib/components/CopyArea.svelte';
 
 	export let name, link, gameid, playername;
@@ -26,7 +25,7 @@
 </Card>
 
 <style lang="scss">
-	@import '@damillora/plachta/styles/global';
+	@import '@damillora/plachta/dist/styles/global';
 
 	.game-card {
 		width: 100%;

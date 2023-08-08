@@ -1,6 +1,5 @@
 <script>
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
-	import Index from '@damillora/plachta/components/PageTypes/Index.svelte';
+	import { Container, Index } from '@damillora/plachta';
 </script>
 
 <svelte:head>

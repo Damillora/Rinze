@@ -1,7 +1,5 @@
 <script>
-	import Hero from '@damillora/plachta/components/Hero/Hero.svelte';
-	import Container from '@damillora/plachta/components/Container/Container.svelte';
-	import Index from '@damillora/plachta/components/PageTypes/Index.svelte';
+	import { Hero, Container, Index } from '@damillora/plachta';
 </script>
 
 <svelte:head>
