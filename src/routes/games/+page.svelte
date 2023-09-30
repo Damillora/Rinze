@@ -19,10 +19,11 @@
 			gameid="SW-8522-2159-0226"
 		/>
 		<GameListItem
-			name="maimai DX (International ver)"
+			name="maimai DX"
 			link="https://maimai.sega.com/"
 			playername="YUIKA283"
 			gameid="6027059823123"
+			version="International ver"
 		/>
 		<GameListItem
 			name="SOUND VOLTEX EXCEED GEAR"
@@ -32,23 +33,26 @@
 		/>
 		<h2>Main Mobile Games</h2>
 		<GameListItem
-			name="Arknights (EN)"
+			name="Arknights"
 			link="http://arknights.global"
 			playername="Damillora"
 			gameid="Damillora#0835"
 			reviewlink="https://blog.nanao.moe/game-reviews/arknights/"
+			version="Global server"
 		/>
 		<GameListItem
-			name="Azur Lane (EN)"
+			name="Azur Lane"
 			link="https://azurlane.yo-star.com"
 			playername="Damillora"
 			gameid="204960914"
+			version="Global server"
 		/>
 		<GameListItem
 			name="Honkai Star Rail"
 			link="https://hsr.hoyoverse.com"
 			playername="Damillora"
 			gameid="801618657"
+			version="Asia server"
 		/>
 		<GameListItem
 			name="IDOLY PRIDE"
@@ -56,12 +60,14 @@
 			playername="Damillora"
 			gameid="9Y34R3VH"
 			reviewlink="https://blog.nanao.moe/game-reviews/idoly-pride"
+			version="Japanese server"
 		/>
 		<GameListItem
 			name="Neural Cloud"
 			link="https://42lab-us.sunborngame.com"
 			playername="Damillora"
 			gameid="52799"
+			version="Global server"
 		/>
 		<h2>Currently Reviewing</h2>
 		<GameListItem 
@@ -91,13 +97,15 @@
 			playername="Damillora"
 			gameid="6296686"
 			reviewlink="https://blog.nanao.moe/game-reviews/blue-archive/"
+			version="Japanese server"
 		/>
 		<GameListItem
-			name="Counter:Side (SEA)"
+			name="Counter:Side"
 			link="https://counterside.zlongame.com/"
 			playername="Damillora"
 			gameid="#394941"
 			reviewlink="https://blog.nanao.moe/game-reviews/counter-side/"
+			version="SEA server"
 		/>
 		<GameListItem
 			name="CUE!"
@@ -107,11 +115,12 @@
 			reviewlink="https://blog.nanao.moe/game-reviews/cue/"
 		/>
 		<GameListItem
-			name="Project SEKAI COLORFUL STAGE (JP)"
+			name="Project SEKAI COLORFUL STAGE"
 			link="https://pjsekai.sega.jp/"
 			playername="Damillora"
 			gameid="5121608293470214"
 			reviewlink="https://blog.nanao.moe/game-reviews/project-sekai-colorful-stage/"
+			version="Japanese server"
 		/>
 		<GameListItem
 			name="Snowbreak: Containment Zone"

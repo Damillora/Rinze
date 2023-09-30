@@ -5,6 +5,7 @@
 
 	export let name, link, gameid, playername;
 	export let reviewlink = null;
+	export let version = null;
 </script>
 
 <Card>
@@ -12,6 +13,11 @@
 		<CardContent>
 			<CardTitle>
 				<a href={link}>{name}</a>
+				{#if version}
+					<span class="game-card__version">
+						{version}
+					</span>
+				{/if}
 			</CardTitle>
 			{#if reviewlink}
 				<CardDescription>
@@ -77,6 +83,11 @@
 			}
 		}
 
+		&__version {
+			font-size: $text-base;
+			font-weight: 300;
+			color: var(--primary-color);
+		}
 		&__icon {
 			margin-right: 0.5rem;
 		}
