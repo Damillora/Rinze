@@ -10,8 +10,9 @@
 	<Index>
 		<h1 class="page-header__heading">About Damillora</h1>
 		<p>
-			Hello! My name is Damillora. I'm an indie Virtual YouTuber with a focus on technology, games,
-			and music exploration!
+			Hello! My name is Damillora. I'm a programmer by day, and DJ by night. My DJ style is
+			combining electronic dance music with vocals from anime and J-Pop songs.
+			I also sometimes appear on the internet as a VTuber, but currently I am helping out with the Indonesian Denonbu community!
 		</p>
 		<h2>Profile</h2>
 		<ul>

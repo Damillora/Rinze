@@ -10,193 +10,131 @@
 <Container>
 	<Index>
 		<h1>Game Profile</h1>
-
-		<p>
-			This page lists various IDs from games that I play or try out, in varying states of activity.
-		</p>
-		<p>My most frequently played genre is rhythm games, but sometimes I try other genres too</p>
-		<h2>Game Consoles</h2>
+		<p>This page lists various IDs from games that I play and/or review.</p>
+		<h2>Game Consoles and Arcade Games</h2>
 		<GameListItem
 			name="Nintendo Switch"
 			link="/games"
 			playername="Damillora"
 			gameid="SW-8522-2159-0226"
 		/>
-
-		<h2>Game IDs</h2>
-		<div class="card-list">
-			<GameListItem
-				name="Alchemy Stars (SEA)"
-				link="/games/alchemystars"
-				playername="Damilora"
-				gameid="67119157"
-			/>
-			<GameListItem
-				name="Alice Fiction"
-				link="/games/alicefic"
-				playername="Damillora"
-				gameid="49e3dyqh9f80"
-			/>
-			<GameListItem name="Arcaea" link="/games/arcaea" playername="Damillora" gameid="264202217" />
-			<GameListItem
-				name="ARGONAVIS from BanG Dream! AAside"
-				link="/games/aaside"
-				playername="Damilora"
-				gameid="3BUWJibt"
-			/>
-			<GameListItem
-				name="Arknights"
-				link="/games/arknights"
-				playername="Damillora"
-				gameid="Damillora#0835"
-			/>
-			<GameListItem
-				name="Artery Gear: Fusion (EN)"
-				link="/games/arterygear"
-				playername="Damilora"
-				gameid="030454085"
-			/>
-			<GameListItem
-				name="Azur Lane (EN)"
-				link="/games/azurlane"
-				playername="Damillora"
-				gameid="204960914"
-			/>
-			<GameListItem
-				name="BanG Dream! Girls Band Party (JP)"
-				link="/games/bandori"
-				playername="Damillora"
-				gameid="106205253"
-			/>
-			<GameListItem
-				name="Blue Archive"
-				link="/games/bluearchive"
-				playername="Damillora"
-				gameid="6296686"
-			/>
-			<GameListItem
-				name="Counter:Side"
-				link="/games/counterside"
-				playername="Damillora"
-				gameid="#394941"
-			/>
-			<GameListItem name="CUE!" link="/games/cue" playername="Damillora" gameid="37132287893" />
-			<GameListItem
-				name="Fate/Grand Order (JP)"
-				link="/games/fgo"
-				playername="Damillora"
-				gameid="744497723"
-			/>
-			<GameListItem
-				name="Genshin Impact"
-				link="/games/genshin"
-				playername="Damillora"
-				gameid="804547223"
-			/>
-			<GameListItem
-				name="Honkai Impact 3rd"
-				link="/games/honkai"
-				playername="Damillora"
-				gameid="17918429"
-			/>
-			<GameListItem
-				name="Honkai Star Rail"
-				link="/games/starrail"
-				playername="ClaraEllie / Damillora"
-				gameid="801618657"
-			/>
-			<GameListItem
-				name="IDOLY PRIDE"
-				link="/games/idoly"
-				playername="Damillora"
-				gameid="QAPHJWMY"
-			/>
-			<GameListItem
-				name="Love Live! School Idol Festival (JP)"
-				link="/games/llsif"
-				playername="Damillora"
-				gameid="755897396"
-			/>
-			<GameListItem
-				name="Love Live! School idol festival ALL STARS (JP)"
-				link="/games/llsifas"
-				playername="-"
-				gameid="-"
-			/>
-			<GameListItem
-				name="maimai DX"
-				link="/games/maimai"
-				playername="YUIKA283"
-				gameid="6027059823123"
-			/>
-			<GameListItem
-				name="Neural Cloud"
-				link="/games/neuralcloud"
-				playername="Damillora"
-				gameid="52799"
-			/>
-			<GameListItem name="Nogikoi" link="/games/nogikoi" playername="-" gameid="1673068678" />
-			<GameListItem
-				name="Project SEKAI COLORFUL STAGE"
-				link="/games/puroseka"
-				playername="Damillora"
-				gameid="5121608293470214"
-			/>
-			<GameListItem
-				name="Revue Starlight Re LIVE (EN)"
-				link="/games/starira"
-				playername="[RS]Damillora"
-				gameid="2490812618"
-			/>
-			<GameListItem
-				name="Shadowverse"
-				link="/games/shadowverse"
-				playername="Damillora"
-				gameid="778908673"
-			/>
-			<GameListItem
-				name="SOUND VOLTEX VIVID WAVE"
-				link="/games/sdvx"
-				playername="YUIKA283"
-				gameid="SV-6457-6694"
-			/>
-			<GameListItem
-				name="The iDOLM@STER Million Live: Theater Days"
-				link="/games/mirishita"
-				playername="Damillora"
-				gameid="CGTEDUQ4"
-			/>
-			<GameListItem
-				name="THE iDOLM@STER POPLINKS"
-				link="/games/poplinks"
-				playername="Damillora"
-				gameid="EQCU3N7K6T44J"
-			/>
-			<GameListItem
-				name="THE IDOLM@STER: Shiny Colors"
-				link="/games/shinymas"
-				playername="Damillora"
-				gameid="ePmtJyTwzn"
-			/>
-			<GameListItem
-				name="THE IDOLM@STER SideM GROWING STARS"
-				link="/games/saisuta"
-				playername="Damillora"
-				gameid="XZFL59XM"
-			/>
-			<GameListItem
-				name="Tokyo 7th Sisters"
-				link="/games/t7s"
-				playername="Damillora"
-				gameid="M2mXkWk"
-			/>
-			<GameListItem
-				name="欅坂46・日向坂46 UNI'S ON AIR"
-				link="games/unison"
-				playername="Damillora"
-				gameid="y2medy4d"
-			/>
-			<!--
+		<GameListItem
+			name="maimai DX (International ver)"
+			link="https://maimai.sega.com/"
+			playername="YUIKA283"
+			gameid="6027059823123"
+		/>
+		<GameListItem
+			name="SOUND VOLTEX EXCEED GEAR"
+			link="https://p.eagate.573.jp/game/sdvx/vi/index.html"
+			playername="YUIKA283"
+			gameid="SV-6457-6694"
+		/>
+		<h2>Main Mobile Games</h2>
+		<GameListItem
+			name="Arknights (EN)"
+			link="http://arknights.global"
+			playername="Damillora"
+			gameid="Damillora#0835"
+			reviewlink="https://blog.nanao.moe/game-reviews/arknights/"
+		/>
+		<GameListItem
+			name="Azur Lane (EN)"
+			link="https://azurlane.yo-star.com"
+			playername="Damillora"
+			gameid="204960914"
+		/>
+		<GameListItem
+			name="Honkai Star Rail"
+			link="https://hsr.hoyoverse.com"
+			playername="Damillora"
+			gameid="801618657"
+		/>
+		<GameListItem
+			name="IDOLY PRIDE"
+			link="https://idolypride.jp/game/"
+			playername="Damillora"
+			gameid="9Y34R3VH"
+			reviewlink="https://blog.nanao.moe/game-reviews/idoly-pride"
+		/>
+		<GameListItem
+			name="Neural Cloud"
+			link="https://42lab-us.sunborngame.com"
+			playername="Damillora"
+			gameid="52799"
+		/>
+		<h2>Currently Reviewing</h2>
+		<GameListItem 
+			name="Atelier Resleriana"
+			link="http://www.gamecity.ne.jp/atelier/resleriana/"
+			playername="Damillora"
+			gameid="232492238926"
+		/>
+		<h2>Reviewed Mobile Games</h2>
+		<GameListItem
+			name="Alice Fiction"
+			link="https://alice-fiction.com/en/"
+			playername="Damillora"
+			gameid="49e3dyqh9f80"
+			reviewlink="https://blog.nanao.moe/game-reviews/alice-fiction/"
+		/>
+		<GameListItem
+			name="ARGONAVIS from BanG Dream! AAside"
+			link="https://aaside.bushimo.jp"
+			playername="Damilora"
+			gameid="3BUWJibt"
+			reviewlink="https://blog.nanao.moe/game-reviews/argonavis-from-bang-dream-aaside/"
+		/>
+		<GameListItem
+			name="Blue Archive"
+			link="https://bluearchive.jp/"
+			playername="Damillora"
+			gameid="6296686"
+			reviewlink="https://blog.nanao.moe/game-reviews/blue-archive/"
+		/>
+		<GameListItem
+			name="Counter:Side (SEA)"
+			link="https://counterside.zlongame.com/"
+			playername="Damillora"
+			gameid="#394941"
+			reviewlink="https://blog.nanao.moe/game-reviews/counter-side/"
+		/>
+		<GameListItem
+			name="CUE!"
+			link="https://www.cue-liber.jp/"
+			playername="Damillora"
+			gameid="37132287893"
+			reviewlink="https://blog.nanao.moe/game-reviews/cue/"
+		/>
+		<GameListItem
+			name="Project SEKAI COLORFUL STAGE (JP)"
+			link="https://pjsekai.sega.jp/"
+			playername="Damillora"
+			gameid="5121608293470214"
+			reviewlink="https://blog.nanao.moe/game-reviews/project-sekai-colorful-stage/"
+		/>
+		<GameListItem
+			name="Snowbreak: Containment Zone"
+			link="https://snowbreak.amazingseasun.com/"
+			playername="Damillora"
+			gameid="11274762"
+			reviewlink="https://blog.nanao.moe/game-reviews/snowbreak-containment-zone/"
+		/>
+		<GameListItem
+			name="THE iDOLM@STER POPLINKS"
+			link="https://poplinks.idolmaster-official.jp/"
+			playername="Damillora"
+			gameid="EQCU3N7K6T44J"
+			reviewlink="https://blog.nanao.moe/game-reviews/the-idolmaster-poplinks/"
+		/>
+		<GameListItem
+			name="欅坂46・日向坂46 UNI'S ON AIR"
+			link="https://keyahina-unisonair.com/"
+			playername="Damillora"
+			gameid="y2medy4d"
+			reviewlink="https://blog.nanao.moe/game-reviews/keyakizaka46-hinatazaka46-unis-on-air/"
+		/>
+		<!--
 		<GameListItem
 		  name=""
 		  link=""
@@ -204,6 +142,5 @@
 		  gameid=""
 		  />
 		-->
-		</div>
 	</Index>
 </Container>

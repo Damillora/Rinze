@@ -1,9 +1,10 @@
 <script>
-	import { Card, CardContent, CardTitle } from '@damillora/plachta';
+	import { Card, CardContent, CardDescription, CardTitle } from '@damillora/plachta';
 
 	import CopyArea from '$lib/components/CopyArea.svelte';
 
 	export let name, link, gameid, playername;
+	export let reviewlink = null;
 </script>
 
 <Card>
@@ -12,6 +13,11 @@
 			<CardTitle>
 				<a href={link}>{name}</a>
 			</CardTitle>
+			{#if reviewlink}
+				<CardDescription>
+					<a href={reviewlink}>View my review here</a>
+				</CardDescription>
+			{/if}
 		</CardContent>
 		<div class="game-card__info">
 			<div class="game-card__id game-card__id--top">
