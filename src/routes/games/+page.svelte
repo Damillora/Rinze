@@ -70,12 +70,6 @@
 			version="Global server"
 		/>
 		<h2>Currently Reviewing</h2>
-		<GameListItem 
-			name="Atelier Resleriana"
-			link="http://www.gamecity.ne.jp/atelier/resleriana/"
-			playername="Damillora"
-			gameid="232492238926"
-		/>
 		<h2>Reviewed Mobile Games</h2>
 		<GameListItem
 			name="Alice Fiction"
@@ -90,6 +84,13 @@
 			playername="Damilora"
 			gameid="3BUWJibt"
 			reviewlink="https://blog.nanao.moe/game-reviews/argonavis-from-bang-dream-aaside/"
+		/>
+		<GameListItem 
+			name="Atelier Resleriana"
+			link="http://www.gamecity.ne.jp/atelier/resleriana/"
+			playername="Damillora"
+			gameid="232492238926"
+			reviewlink="https://blog.nanao.moe/game-reviews/atelier-resleriana-forgotten-alchemy-and-the-polar-night-liberator/"
 		/>
 		<GameListItem
 			name="Blue Archive"
