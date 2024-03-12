@@ -1,10 +1,9 @@
 FROM node:16-alpine
 # install dependencies
 WORKDIR /app
-RUN npm install -g pnpm
 COPY . .
-RUN pnpm install 
-RUN pnpm build
+RUN npm install 
+RUN npm run build
 FROM node:16-alpine
 WORKDIR /app
 COPY --from=0 /app/build /app
