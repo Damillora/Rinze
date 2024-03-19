@@ -1,5 +1,5 @@
 <script>
-	import { Container, Index } from '@damillora/plachta';
+	import { Container, Post } from '@damillora/plachta';
 	import GameListItem from '$lib/components/GameListItem.svelte';
 </script>
 
@@ -8,7 +8,7 @@
 </svelte:head>
 
 <Container>
-	<Index>
+	<Post>
 		<h1>Game Profile</h1>
 		<p>This page lists various IDs from games that I play and/or review.</p>
 		<h2>Game Consoles and Arcade Games</h2>
@@ -38,6 +38,14 @@
 			playername="Damillora"
 			gameid="Damillora#0835"
 			reviewlink="https://blog.nanao.moe/game-reviews/arknights/"
+			version="Global server"
+		/>
+		<GameListItem 
+			name="Atelier Resleriana"
+			link="https://resleriana.atelier.games/"
+			playername="Damillora"
+			gameid="949135363692"
+			reviewlink="https://blog.nanao.moe/game-reviews/atelier-resleriana-forgotten-alchemy-and-the-polar-night-liberator/"
 			version="Global server"
 		/>
 		<GameListItem
@@ -91,6 +99,7 @@
 			playername="Damillora"
 			gameid="232492238926"
 			reviewlink="https://blog.nanao.moe/game-reviews/atelier-resleriana-forgotten-alchemy-and-the-polar-night-liberator/"
+			version="Japanese server"
 		/>
 		<GameListItem
 			name="Blue Archive"
@@ -152,5 +161,5 @@
 		  gameid=""
 		  />
 		-->
-	</Index>
+	</Post>
 </Container>

@@ -1,5 +1,5 @@
 <script>
-	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
+	import { PageHeader, Container, Post, PostMain, PageHeaderContents } from '@damillora/plachta';
 </script>
 
 
@@ -10,10 +10,12 @@
 <Container>
 	<Post>
 		<PageHeader>
-			<h1>Yuika theme</h1>
-			<p>
-				<a href="https://github.com/Damillora/Yuika">source code</a>
-			</p>
+			<PageHeaderContents>
+				<h1>Yuika theme</h1>
+				<p>
+					<a href="https://github.com/Damillora/Yuika">source code</a>
+				</p>
+			</PageHeaderContents>
 		</PageHeader>
 		<PostMain comments={false}>
 			<h2>Description</h2>

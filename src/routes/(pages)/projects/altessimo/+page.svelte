@@ -1,5 +1,5 @@
 <script>
-	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
+	import { PageHeader, Container, Post, PostMain, PageHeaderContents } from '@damillora/plachta';
 </script>
 
 <svelte:head>
@@ -9,12 +9,14 @@
 <Container>
 	<Post>
 		<PageHeader>
-			<h1>Altessimo</h1>
-			<p>
-				<a href="https://altessimo.nanao.moe">live</a>
-				&bull;
-				<a href="https://github.com/Damillora/Altessimo">source code</a>
-			</p>
+			<PageHeaderContents>
+				<h1>Altessimo</h1>
+				<p>
+					<a href="https://altessimo.nanao.moe">live</a>
+					&bull;
+					<a href="https://github.com/Damillora/Altessimo">source code</a>
+				</p>
+			</PageHeaderContents>
 		</PageHeader>
 		<PostMain comments={false}>
 			<h2>Description</h2>

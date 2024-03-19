@@ -1,5 +1,5 @@
 <script>
-	import { PageHeader, Container, Post, PostMain } from '@damillora/plachta';
+	import { PageHeader, Container, Post, PostMain, PageHeaderContents } from '@damillora/plachta';
 </script>
 
 <svelte:head>
@@ -9,10 +9,12 @@
 <Container>
 	<Post>
 		<PageHeader>
-			<h1>nanao.moe (legacy)</h1>
-			<p>
-				<a href="https://github.com/Damillora/miracle">source code</a>
-			</p>
+			<PageHeaderContents>
+				<h1>nanao.moe (legacy)</h1>
+				<p>
+					<a href="https://github.com/Damillora/miracle">source code</a>
+				</p>
+			</PageHeaderContents>
 		</PageHeader>
 		<PostMain comments={false}>
 			<h2>Description</h2>

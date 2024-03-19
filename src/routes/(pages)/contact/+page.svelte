@@ -1,5 +1,5 @@
 <script>
-	import { Hero, Container, Index } from '@damillora/plachta';
+	import { Hero, Container, Post } from '@damillora/plachta';
 </script>
 
 <svelte:head>
@@ -7,7 +7,7 @@
 </svelte:head>
 
 <Container>
-	<Index>
+	<Post>
 		<h1>Contact</h1>
 		<p>You can contact me via various channels.</p>
 		<h2>Email: damillora(at)damillora.com</h2>
@@ -17,8 +17,11 @@
 		</p>
 		<h2>Twitter: <a href="https://twitter.com/Damillora">Damillora</a></h2>
 		<p>
-			If you're a VTuber and want to collaborate, please send me a Direct Message my way via
-			Twitter! I will gladly help set up the things needed.
+			You can also contact me via Twitter for shorter correspondences. 
 		</p>
-	</Index>
+		<h2>Discord: damillora</h2>
+		<p>
+			Please try to contact me via the two channels above first, correspondences will move to Discord when needed! I cannot guarantee any reply if you try to contact me via Discord directly.
+		</p>
+	</Post>
 </Container>

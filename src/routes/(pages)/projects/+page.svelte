@@ -1,5 +1,5 @@
 <script>
-	import { Container, Index } from '@damillora/plachta';
+	import { Container, Post } from '@damillora/plachta';
 	import ProjectItem from '$lib/components/ProjectItem.svelte';
 </script>
 
@@ -8,10 +8,10 @@
 </svelte:head>
 
 <Container>
-	<Index>
-		<h1>Projects</h1>
+	<Post>
+		<h1>Software Projects</h1>
 
-		<p>This is a list of projects that I maintain and publicly available on my GitHub.</p>
+		<p>This is a list of software projects that I maintain and publicly available on my GitHub.</p>
 		<h2>Active Projects</h2>
 		<div class="card-list">
 			<ProjectItem
@@ -45,5 +45,5 @@
 			/>
 			<ProjectItem name="Yuika theme" codename="yuika" description="Previous theme for my blog" />
 		</div>
-	</Index>
+	</Post>
 </Container>
