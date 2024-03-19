@@ -7,6 +7,8 @@
 	<title>{$page.status}</title>
 </svelte:head>
 
+<Hero background="/images/bg/283-yuika/bg-xxl.jpg" />
+
 <Container>
 	<Post>
 		<h1>{$page.status}</h1>
