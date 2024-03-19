@@ -8,7 +8,7 @@
 	<title>Damillora: About</title>
 </svelte:head>
 
-<Hero background="/images/feature-dj.jpg">
+<Hero background="/images/feature-dj.jpg" contentSize="medium">
 	<HeroContent>
 		<h1 class="page-header__heading">DJ Damillora</h1>
 		<p>
