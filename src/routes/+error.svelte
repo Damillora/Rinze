@@ -1,6 +1,6 @@
 <script>
 	import { page } from '$app/stores';
-	import { Container } from '@damillora/plachta';
+	import { Container, Post } from '@damillora/plachta';
 </script>
 
 <svelte:head>
@@ -8,12 +8,10 @@
 </svelte:head>
 
 <Container>
-	<h1>{$page.status}</h1>
-	<p>{$page.error.message}</p>
-
-	{#if $page.error.stack}
-		<pre>{$page.error.stack}</pre>
-	{/if}
+	<Post>
+		<h1>{$page.status}</h1>
+		<p>{$page.error.message}</p>
+	</Post>
 </Container>
 
 <style>
