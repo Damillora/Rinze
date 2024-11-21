@@ -15,6 +15,9 @@
 	}
 
 	let { children }: Props = $props();
+
+	let loading = $state(true);
+	navigating.subscribe((x) => (loading = x != null));
 </script>
 
 <Base>
@@ -32,6 +35,8 @@
 {#if isYurikoBirthday()}
 	<FloatingYuriko />
 {/if}
+
+<NavigationLoading {loading}/>
 
 <style lang="scss" global>
 </style>

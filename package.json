@@ -27,7 +27,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@damillora/plachta": "^6.2.0",
+    "@damillora/plachta": "^6.3.0",
     "dayjs": "^1.11.7",
     "howler": "^2.2.3",
     "sass": "^1.58.0"
