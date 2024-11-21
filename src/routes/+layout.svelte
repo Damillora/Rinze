@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { navigating } from '$app/stores';
 	import type { Snippet } from 'svelte';
 	import {
 		Base,
