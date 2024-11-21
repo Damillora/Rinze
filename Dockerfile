@@ -1,10 +1,10 @@
-FROM node:16-alpine
+FROM node:20-alpine
 # install dependencies
 WORKDIR /app
 COPY . .
 RUN npm install 
 RUN npm run build
-FROM node:16-alpine
+FROM node:20-alpine
 WORKDIR /app
 COPY --from=0 /app/build /app
 COPY --from=0 /app/package.json /app
