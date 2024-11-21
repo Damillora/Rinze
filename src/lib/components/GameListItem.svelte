@@ -1,11 +1,25 @@
-<script>
+<script lang="ts">
 	import { Card, CardContent, CardDescription, CardTitle } from '@damillora/plachta';
 
 	import CopyArea from '$lib/components/CopyArea.svelte';
 
-	export let name, link, gameid, playername;
-	export let reviewlink = null;
-	export let version = null;
+	interface Props {
+		name: any;
+		link: any;
+		gameid: any;
+		playername: any;
+		reviewlink?: any;
+		version?: any;
+	}
+
+	let {
+		name,
+		link,
+		gameid,
+		playername,
+		reviewlink = null,
+		version = null
+	}: Props = $props();
 </script>
 
 <Card>

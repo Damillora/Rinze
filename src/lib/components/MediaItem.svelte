@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import { Card, CardContent, CardTitle, CardDescription } from '@damillora/plachta';
 
-	export let title, link, description;
+	let { title, link, description } = $props();
 </script>
 
 <Card>

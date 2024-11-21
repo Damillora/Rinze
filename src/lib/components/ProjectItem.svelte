@@ -1,7 +1,7 @@
-<script>
+<script lang="ts">
 	import { PostCard } from '@damillora/plachta';
 	
-	export let codename, name, description;
+	let { codename, name, description } = $props();
 </script>
 
 <PostCard

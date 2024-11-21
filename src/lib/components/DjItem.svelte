@@ -1,8 +1,19 @@
-<script>
+<script lang="ts">
 	import { Card, CardContent, CardTitle, CardDescription } from '@damillora/plachta';
 
-	export let title, location, date;
-	export let link = "";
+	interface Props {
+		title: any;
+		location: any;
+		date: any;
+		link?: string;
+	}
+
+	let {
+		title,
+		location,
+		date,
+		link = ""
+	}: Props = $props();
 </script>
 
 <Card>
@@ -30,7 +41,7 @@
 </Card>
 
 <style lang="scss">
-	@import '@damillora/plachta/dist/styles/global';
+	@use '@damillora/plachta/dist/styles/global' as *;
 
 	.dj-item {
 		width: 100%;

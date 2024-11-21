@@ -1,6 +1,6 @@
-<script>
-    export let value;
-    let copyarea;
+<script lang="ts">
+    let { value = $bindable() } = $props();
+    let copyarea = $state();
 
     let copy = () => {
         copyarea.select();
@@ -9,10 +9,10 @@
     };
 </script>
 
-<input type="text" class="copyarea" on:click={copy} bind:value={value} bind:this={copyarea} readonly/>
+<input type="text" class="copyarea" onclick={copy} bind:value={value} bind:this={copyarea} readonly/>
 
 <style lang="scss">
-    @import "@damillora/plachta/dist/styles/global";
+    @use "@damillora/plachta/dist/styles/global" as *;
 
     .copyarea {
         background-color: var(--background-color);

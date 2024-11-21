@@ -9,7 +9,7 @@
 	}
 </script>
 
-<div class="floating-yuriko hvr-float" on:click={yurikoSound}>
+<div class="floating-yuriko hvr-float" onclick={yurikoSound}>
 	<img src="/yuriko-smol.png" alt="Yuriko" />
 </div>
 
