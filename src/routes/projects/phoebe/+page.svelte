@@ -10,19 +10,19 @@
 	<Post>
 		<PageHeader>
 			<PageHeaderContents>
-				<h1>Shioriko</h1>
+				<h1>phoebe</h1>
 				<p>
-					<a href="https://github.com/Damillora/Shioriko">source code</a>
+					<a href="https://github.com/Damillora/phoebe">source code</a>
 				</p>
 			</PageHeaderContents>
 		</PageHeader>
 		<PostMain comments={false}>
 			<h2>Description</h2>
 			<p>
-				Shioriko is a booru-like image board software written in Go and Svelte. Features currently
-				includes automatic tag resolution, searching by tag, infinite-scrolling post browsing, and
-				similarity search based on perceptual hashing.
+				a booru-style image gallery and organizer. 
+				Built with the Go language and Svelte framework, phoebe is designed for personal image gathering.
 			</p>
+			<p>Formerly shioriko.</p>
 			<h2>Technologies</h2>
 			<ul>
 				<li>Svelte</li>

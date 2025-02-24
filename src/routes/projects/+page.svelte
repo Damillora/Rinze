@@ -25,9 +25,9 @@
 				description="My online blog"
 			/>
 			<ProjectItem
-				name="Shioriko"
-				codename="shioriko"
-				description="Booru-like imageboard software written in Go and Svelte"
+				name="phoebe"
+				codename="phoebe"
+				description="a booru-style image gallery and organizer"
 			/>
 		</div>
 		<h2>Inactive Projects</h2>
