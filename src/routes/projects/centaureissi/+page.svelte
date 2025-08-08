@@ -10,28 +10,24 @@
 	<Post>
 		<PageHeader>
 			<PageHeaderContents>
-				<h1>phoebe</h1>
+				<h1>centaureissi</h1>
 				<p>
-					<a href="https://github.com/Damillora/phoebe">source code</a>
+					<a href="https://github.com/Damillora/centaureissi">source code</a>
 				</p>
 			</PageHeaderContents>
 		</PageHeader>
 		<PostMain comments={false}>
 			<h2>Description</h2>
-			<p>
-				a booru-style image gallery and organizer. Built with the Go language and Svelte framework,
-				phoebe is designed for personal image gathering.
-			</p>
-			<p>Formerly shioriko.</p>
+			<p>a service that stores emails and makes them searchable.</p>
 			<h2>Technologies</h2>
 			<ul>
 				<li>Svelte</li>
 				<li>Bulma</li>
-				<li>Go</li>
+				<li>Rust</li>
 			</ul>
 			<h2>Screenshots</h2>
 			<div class="gallery">
-				<img src="/images/projects/phoebe/1.jpg" alt="Phoebe" />
+				<img src="/images/projects/centaureissi/1.jpg" alt="Centaureissi" />
 			</div>
 		</PostMain>
 	</Post>
